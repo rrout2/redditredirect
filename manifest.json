@@ -5,7 +5,7 @@
   "content_scripts": [
     {
       "matches": [
-        "*://reddit.com/*"
+        "*://www.reddit.com/*"
       ],
       "js": ["content.js"]
     }
