@@ -1,2 +1,2 @@
 # redditredirect
-chrome extension that should redirect one from r/* to reddit.com/r/*
+chrome extension in the making, should eventually ask for input and go to certain subreddit on icon click

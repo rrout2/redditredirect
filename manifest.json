@@ -2,12 +2,25 @@
   "manifest_version": 2,
   "name": "My Cool Extension",
   "version": "0.1",
-  "content_scripts": [
-    {
-      "matches": [
-        "*://www.reddit.com/*"
-      ],
-      "js": ["content.js"]
-    }
+  // "content_scripts": [
+  //   {
+  //     "matches": [
+  //       "*://www.reddit.com/*"
+  //     ],
+  //     "js": ["content.js"]
+  //   }
+  // ],
+
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+
+  "browser_action": {
+    "default_icon": "icon.png"
+  },
+
+  "permissions": [
+    "tabs"
   ]
 }
